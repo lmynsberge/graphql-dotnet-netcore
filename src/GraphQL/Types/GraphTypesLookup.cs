@@ -12,7 +12,7 @@ namespace GraphQL.Types
 
         private readonly object _lock = new object();
 
-        public GraphTypesLookup()
+        public GraphTypesLookup ()
         {
             AddType<StringGraphType>();
             AddType<BooleanGraphType>();
